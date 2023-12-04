@@ -96,7 +96,7 @@ wp-content/plugins/akismet/
 
 # ignore specific themes
 wp-content/themes/twenty*/
-wp-content/themes/hello-elementor/
+wp-content/themes/cornerstone-elementor/
 
 # ignore specific plugins
 wp-content/plugins/disable-comments/
