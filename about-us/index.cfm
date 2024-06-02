@@ -5,7 +5,7 @@
 	Purpose:	About Us landing page.
 --->
 
-<!--- adasd --->
+<!--- Settings --->
 <cfset pagetitle="About Us" />
 
 <!--- Breadcrumbs --->
@@ -43,6 +43,8 @@
 
 	<cf_features>
 		<cf_feature name="Our Beliefs" href="/about-us/our-beliefs/" image="/images/beliefs_thumb.png" />
+		<cf_feature name="Meet Our Minister" href="/about-us/meet-our-minister/" image="/images/minister_thumb.png" />
+		<cf_feature name="Leadership" href="/about-us/leadership/" image="/images/leadership_thumb.png" />
 	</cf_features>
 
 </cf_layout>

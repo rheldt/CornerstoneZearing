@@ -5,7 +5,7 @@
 	Purpose:	About Us > Our Beliefs > Baptism page.
 --->
 
-<!--- adasd --->
+<!--- Settings --->
 <cfset pagetitle="Baptism" />
 
 <!--- Breadcrumbs --->

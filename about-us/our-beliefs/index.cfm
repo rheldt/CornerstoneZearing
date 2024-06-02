@@ -5,7 +5,7 @@
 	Purpose:	About Us > Our Beliefs page.
 --->
 
-<!--- adasd --->
+<!--- Settings --->
 <cfset pagetitle="Our Beliefs" />
 
 <!--- Breadcrumbs --->
@@ -18,7 +18,7 @@
 <!--- Content --->
 <cf_layout pagetitle="#pagetitle#" breadcrumbs="#breadcrumbs#"> 
 
-	<cf_mainimage mobile="beliefs_mobile.png" desktop="beliefs_desktop.png" alt="Cornerstone's Church Building" />
+	<cf_mainimage mobile="beliefs_mobile.png" desktop="beliefs_desktop.png" alt="Our Beliefs" />
 
 	<p class="lead">
 		As a church we have no written doctrine or creed except for the Bible itself. We want our core beliefs 
@@ -85,7 +85,7 @@
 				from the dead through the glory of the Father, we too may live a new life. (Acts 8:34-39)
 			</p>
 			<p>
-				<a href="/about-us/our-beliefs/baptism" class="btn btn-primary">Learn More About Baptism</a>
+				<a href="/about-us/our-beliefs/baptism/" class="btn btn-primary">Learn More About Baptism</a>
 			</p>
 		</div>
 	</div>
