@@ -46,7 +46,7 @@
 				</h4>
 				<p>
 					Request to join the Cornerstone Family mailing list here. Receive
-					church announcements, prayer requests, spiritual encouragement and more.
+					church announcements, prayer requests, spiritual encouragement, and more.
 				</p>
 				<div class="input-group input-group-lg">
 					<input type="text" type="email" class="form-control" placeholder="Enter email address" style="border-top-right-radius: 0; border-bottom-right-radius: 0;" />

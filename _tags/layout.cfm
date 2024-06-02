@@ -9,30 +9,24 @@
 <!doctype html>
 <html class="no-js">
 <head>
-    <title><cfoutput>#attributes.pagetitle#</cfoutput></title>
-    <cfinclude template="head.cfm" />
+    <title><cfoutput>#EncodeForHTML(attributes.pagetitle)#</cfoutput> - Cornerstone Church of Christ</title>
+    <cfinclude template="/_includes/head.cfm" />
 </head>
 <body>
     <div class="body">
-        <cfinclude template="header.cfm" />
+        <cfinclude template="/_includes/header.cfm" />
         <div class="nav-backed-header">
             <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <ol class="breadcrumb">
-                            <cfoutput>#attributes.breadcrumbs#</cfoutput>
-                        </ol>
-                    </div>
-                </div>
+                <nav aria-label="Breadcrumbs">
+                    <ol class="breadcrumb">
+                        <cfoutput>#attributes.breadcrumbs#</cfoutput>
+                    </ol>
+                </nav>
             </div>
         </div>
         <div class="page-header">
             <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h1><cfoutput>#attributes.pagetitle#</cfoutput></h1>
-                    </div>
-                </div>
+                <h1><cfoutput>#EncodeForHTML(attributes.pagetitle)#</cfoutput></h1>
             </div>
         </div>
         <div class="content main-container" id="site-content">
@@ -40,7 +34,7 @@
 <cfelse>
             </article>
         </div>
-        <cfinclude template="footer.cfm" />
+        <cfinclude template="/_includes/footer.cfm" />
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js" integrity="sha512-TPh2Oxlg1zp+kz3nFA0C5vVC6leG/6mm1z9+mA81MI5eaUVqasPLO8Cuk4gMF4gUfP5etR73rgU/8PNMsSesoQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>

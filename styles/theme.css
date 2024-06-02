@@ -498,6 +498,7 @@ progress {
 .lead {
     font-size: 1.09375rem;
     font-weight: 300;
+    line-height: 1.4;
 }
 
 .display-1 {
@@ -11485,11 +11486,11 @@ h1, .h1 {
 }
 
 h2, .h2 {
-    font-size: 30px;
+    font-size: 24px;
 }
 
 h3, .h3 {
-    font-size: 24px;
+    font-size: 22px;
 }
 
 h4, .h4 {
@@ -12155,6 +12156,7 @@ body {
         height: 80px;
         vertical-align: middle;
         line-height: 0;
+        max-width: 275px;
     }
 
     .site-header .menu-toggle {
@@ -15829,4 +15831,17 @@ blockquote p {
     border-radius: 3px;
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
+}
+
+article a, article a:visited {
+    text-decoration: none;
+}
+
+article a:hover, article a:active {
+    text-decoration: underline;
+}
+
+a.rtBibleRef {
+    text-decoration: underline;
+    text-decoration-style: dotted;
 }
