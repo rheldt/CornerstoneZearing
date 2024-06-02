@@ -3081,7 +3081,7 @@ textarea.form-control-lg {
     }
 
 .btn-secondary {
-    color: #fff;
+    color: #fff!important;
     background-color: #6c757d;
     border-color: #6c757d;
 }
@@ -11986,11 +11986,6 @@ label {
     background: url(../images/pattern.png) repeat;
 }
 
-.img-thumbnail {
-    background: #f8f8f8 !important;
-    padding: 5px !important;
-}
-
 .social-icons a {
     margin: 0 8px;
     text-decoration: none;
@@ -13071,6 +13066,7 @@ html[xmlns] .slides {
         background: url(../images/pattern.png);
         color: #fff;
         font-size: 18px;
+        font-weight: normal;
         display: inline-block;
         padding: 8px 30px;
         margin: 0;
@@ -14437,7 +14433,7 @@ button.close {
 }
 
 .btn:focus, .btn.focus {
-    color: #007F7B;
+    color: #0073AA;
 }
 
 .card-header {
