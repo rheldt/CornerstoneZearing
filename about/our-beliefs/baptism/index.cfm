@@ -11,8 +11,8 @@
 <!--- Breadcrumbs --->
 <cfsavecontent variable="breadcrumbs">
     <li><a href="/">Home</a></li>
-    <li><a href="/about-us/">About Us</a></li>
-    <li><a href="/about-us/our-beliefs/">Our Beliefs</a></li>
+    <li><a href="/about/">About Us</a></li>
+    <li><a href="/about/our-beliefs/">Our Beliefs</a></li>
     <li class="active">Baptism</li>
 </cfsavecontent>
 
@@ -32,8 +32,8 @@
 
 	<ul class="unordered">
 		<li>
-			We do <strong>not</strong> believe that baptism what saves a person, as if baptism were a kind of
-			"work" that would gain/earn the acceptance of God.<br />&nbsp; 
+			We <strong>do not</strong> believe that baptism what saves a person, as if baptism were a kind of
+			work that would gain/earn the acceptance of God.<br />&nbsp; 
 		</li>
 		<li>
 			We <strong>do</strong> practice baptism by <em>immersion</em> rather than sprinkling; we do not
@@ -43,7 +43,7 @@
 		<li>
 			Our understanding and practice, based on our prayerful study of God's Word, is referred to as
 			<em>Believer's Baptism</em>. That means a person must be of an appropriate age where they can be
-			considered "accountable" for themselves, be fully capable of understanding the basic teachings from
+			considered accountable for themselves, be fully capable of understanding the basic teachings from
 			Scripture of what baptism is and what it does for the believer, and have the capacity to come to a
 			decision regarding the Lordship of Christ over their lives, all of their own free will.<br />&nbsp;
 		</li>
@@ -51,14 +51,14 @@
 
 	<p>
 		While we promote and practice <em>Believer's Baptism</em> as a regular component of a person's coming to 
-		Christ by faith, and this not being a "work" to gain God's acceptance (thus contradicting salvation as
+		Christ by faith, and this not being a work to gain God's acceptance (thus contradicting salvation as
 		a free gift of God by His Own grace), we do recognize in the book of Acts that when Peter was asked on
 		the Day of Pentecost, "What must we do?" he answered, "Repent and be baptized." (Acts 2:37-38)
 	</p>
 	
 	<ul class="unordered">
 		<li>
-			<em>Repentance</em> means to do an "about face", or to turn around. It can be thought of as a change
+			<em>Repentance</em> means to do an about face, or to turn around. It can be thought of as a change
 			of mind that leads to a change of heart. Or, if you prefer, it can be considered a change of heart
 			that leads to a change of mind. In either case, it leads to a Spirit-led change in one's actions.  
 			Once someone repents of their sins, they are commanded to be baptized.<br />&nbsp;
@@ -77,7 +77,7 @@
 	<hr class="mt-4 mb-4" />
 
 	<p>
-		<a href="/about-us/our-beliefs/" class="btn btn-primary">Return to Our Beliefs</a>
+		<a href="/about/our-beliefs/" class="btn btn-primary">Return to Our Beliefs</a>
 	</p>
 
 </cf_layout>

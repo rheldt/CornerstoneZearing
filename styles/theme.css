@@ -4749,8 +4749,8 @@ textarea.form-control-lg {
     display: flex;
     align-items: center;
     width: 100%;
-    padding: 1rem 1.25rem;
-    font-size: 0.875rem;
+    padding: 0.5rem 1.25rem;
+    font-size: 1rem;
     color: #333333;
     text-align: left;
     background-color: #fff;
@@ -4769,7 +4769,6 @@ textarea.form-control-lg {
 .accordion-button:not(.collapsed) {
     color: #0c63e4;
     background-color: #e7f1ff;
-    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
 }
 
     .accordion-button:not(.collapsed)::after {
@@ -4803,7 +4802,6 @@ textarea.form-control-lg {
     z-index: 3;
     border-color: #86b7fe;
     outline: 0;
-    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
 }
 
 .accordion-header {
@@ -11497,7 +11495,7 @@ h4, .h4 {
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 700;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -12205,20 +12203,37 @@ body {
         font-size: 12px;
         font-weight: bold;
         display: inline-block;
+        margin-right: 6px;
+        margin-left: 14px;
+        line-height: 24px;
     }
 
-        .top-navigation li a {
+        /*.top-navigation li span {
             display: inline-block;
             margin: 0 10px;
             text-decoration: none;
         }
 
         .top-navigation li:after {
-            content: "/";
+            content: "•";
         }
 
         .top-navigation li:last-child:after {
             content: "";
+        }*/
+
+        .top-navigation li a.new, .top-navigation li a.new:visited {
+            display: block;
+            color: #ffffff;
+            background: rgba(0,115,170,1);
+            padding: 2px 5px;
+            text-decoration: none;
+            border-radius: 4px;
+            line-height: 18px;
+        }
+
+        .top-navigation li a.new:hover, .top-navigation li a.new:active {
+            background: rgba(0,169,102,1);
         }
 
 .main-menu-wrapper {
@@ -12263,7 +12278,7 @@ body {
             }
 
             .navigation ul li a {
-                padding: 0 24px;
+                padding: 0 15px;
                 display: block;
                 text-decoration: none;
             }
@@ -14496,9 +14511,9 @@ button.close {
         transition: all 0.3s ease 0.1s;
     }
 
-.img-thumbnail img:hover, .img-thumbnail:hover {
+/*.img-thumbnail img:hover, .img-thumbnail:hover {
     opacity: 0.9;
-}
+}*/
 
 .media-box:before {
     content: "\f002";

@@ -11,7 +11,7 @@
 <!--- Breadcrumbs --->
 <cfsavecontent variable="breadcrumbs">
     <li><a href="/">Home</a></li>
-    <li><a href="/about-us/">About Us</a></li>
+    <li><a href="/about/">About Us</a></li>
     <li class="active">Our Beliefs</li>
 </cfsavecontent>
 
@@ -75,17 +75,13 @@
 		<div class="col-lg-6 col-md-6 col-sm-12">
 			<h2>Baptism</h2>
 			<p>
-				When Peter was asked on the Day of Pentecost, "What must we do?" He answered, "Repent and be baptized."
-				Repentance means to do an "about face", or to turn around. Once someone repents of their sins, they are
-				commanded to be baptized. 
-			</p>
-			<p>	
-				Baptism involves a total submersion under water, and as the Bible tells us we are being baptized into
-				Jesus' death. We are buried with Him through baptism into death in order that, just as Jesus was raised
-				from the dead through the glory of the Father, we too may live a new life. (Acts 8:34-39)
+				We believe in baptism by immersion, as practiced in the Bible. Baptism is an important decision, 
+				and a person needs to make their own decision regarding salvation. Therefore, we don't baptize 
+				people until they reach an age where they understand what it is they are doing; typically referred 
+				to as Believer's Baptism. 
 			</p>
 			<p>
-				<a href="/about-us/our-beliefs/baptism/" class="btn btn-primary">Learn More About Baptism</a>
+				<a href="/about/our-beliefs/baptism/" class="btn btn-primary">Learn More About Baptism</a>
 			</p>
 		</div>
 	</div>

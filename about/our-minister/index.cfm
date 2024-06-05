@@ -2,17 +2,17 @@
 	Name:		index.cfm
 	Author:		Ryan Heldt
 	Created:	2024-06-02
-	Purpose:	About Us > Meet Our Minister page.
+	Purpose:	About Us > Our Minister page.
 --->
 
 <!--- Settings --->
-<cfset pagetitle="Meet Our Minister" />
+<cfset pagetitle="Our Minister" />
 
 <!--- Breadcrumbs --->
 <cfsavecontent variable="breadcrumbs">
     <li><a href="/">Home</a></li>
-    <li><a href="/about-us/">About Us</a></li>
-    <li class="active">Meet Our Minister</li>
+    <li><a href="/about/">About Us</a></li>
+    <li class="active">Our Minister</li>
 </cfsavecontent>
 
 <!--- Content --->

@@ -9,6 +9,7 @@
 <!doctype html>
 <html class="no-js">
 <head>
+    <meta charset="utf-8" />
     <title><cfoutput>#EncodeForHTML(attributes.pagetitle)#</cfoutput> - Cornerstone Church of Christ</title>
     <cfinclude template="/_includes/head.cfm" />
 </head>
@@ -24,11 +25,13 @@
                 </nav>
             </div>
         </div>
-        <div class="page-header">
-            <div class="container">
-                <h1><cfoutput>#EncodeForHTML(attributes.pagetitle)#</cfoutput></h1>
+        <cfif not (StructKeyExists(attributes,"hidepagetitle") and attributes.hidepagetitle)>
+            <div class="page-header">
+                <div class="container">
+                    <h1><cfoutput>#EncodeForHTML(attributes.pagetitle)#</cfoutput></h1>
+                </div>
             </div>
-        </div>
+        </cfif>
         <div class="content main-container" id="site-content">
             <article class="container">
 <cfelse>

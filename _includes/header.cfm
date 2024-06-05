@@ -19,9 +19,14 @@
                     </h1>
                 </div>
                 <div class="col-lg-8 col-md-6 col-sm-4">
+                    <!---<ul class="top-navigation hidden-sm hidden-xs">
+                        <li><a href="/about/service-times/"></a></li>
+                        <li><a href="/about/service-times/"></a></li>
+                    </ul>--->
                     <ul class="top-navigation hidden-sm hidden-xs">
-                        <li><a href="/about-us/service-times/">Sunday School at 9:00 am</a></li>
-                        <li><a href="/about-us/service-times/">Worship at 10:00 am</a></li>
+                        <li><i class="fa-regular fa-clock"></i> Sunday School  9:00 am</li>
+                        <li><i class="fa-regular fa-clock"></i> Worship 10:00 am</li>
+                        <li><a href="/new/" class="new">I'm New</a></li>
                     </ul>
                     <a href="#" class="d-none d-sm-block d-md-none menu-toggle"><i class="fas fa-bars"></i></a> 
                 </div>

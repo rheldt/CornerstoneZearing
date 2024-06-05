@@ -3,15 +3,14 @@
         <a href="/">Home</a>
     </li>
     <li>
-        <a href="/about-us/">About Us</a>
+        <a href="/about/">About Us</a>
         <ul class="dropdown">
-            <li><a href="/about-us/our-beliefs/">Our Beliefs</a></li>
-            <li><a href="/about-us/meet-our-minister/">Meet Our Minister</a></li>
-            <li><a href="/about-us/leadership/">Leadership</a></li>
-            <li><a href="/about-us/ministries/">Ministries</a></li>
-            <li><a href="/about-us/frequently-asked-questions/">Frequently Asked Questions</a></li>
-            <li><a href="/about-us/service-times/">Service Times</a></li>
-            <li><a href="/about-us/where-to-find-us/">Where To Find Us</a></li>
+            <li><a href="/about/our-beliefs/">Our Beliefs</a></li>
+            <li><a href="/about/our-minister/">Our Minister</a></li>
+            <li><a href="/about/leadership/">Leadership</a></li>
+            <li><a href="/about/ministries/">Ministries</a></li>
+            <li><a href="/about/service-times/">Service Times</a></li>
+            <li><a href="/about/where-to-find-us/">Where To Find Us</a></li>
         </ul>
     </li>
     <li>
@@ -36,13 +35,16 @@
         </ul>
     </li>
     <li>
+        <a href="/missions/">Missions</a>
+    </li>
+    <li>
         <a href="/events/">Events</a>
     </li>
     <li>
         <a href="/sermons/">Sermons</a>
     </li>
     <li>
-        <a href="/contact-us/">Contact Us</a>
+        <a href="/contact/">Contact Us</a>
     </li>
     <!---<li>
         <a href="https://live.cornerstonezearing.org/">Livestream</a>
