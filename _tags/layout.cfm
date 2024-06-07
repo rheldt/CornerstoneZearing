@@ -18,20 +18,11 @@
         <cfinclude template="/_includes/header.cfm" />
         <div class="nav-backed-header">
             <div class="container">
-                <nav aria-label="Breadcrumbs">
-                    <ol class="breadcrumb">
-                        <cfoutput>#attributes.breadcrumbs#</cfoutput>
-                    </ol>
-                </nav>
+                <h1 class="page-title">
+                    <cfoutput>#EncodeForHTML(attributes.pagetitle)#</cfoutput>
+                </h1>
             </div>
         </div>
-        <cfif not (StructKeyExists(attributes,"hidepagetitle") and attributes.hidepagetitle)>
-            <div class="page-header">
-                <div class="container">
-                    <h1><cfoutput>#EncodeForHTML(attributes.pagetitle)#</cfoutput></h1>
-                </div>
-            </div>
-        </cfif>
         <div class="content main-container" id="site-content">
             <article class="container">
 <cfelse>

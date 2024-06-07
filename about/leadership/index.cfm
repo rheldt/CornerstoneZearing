@@ -8,15 +8,8 @@
 <!--- Settings --->
 <cfset pagetitle="Leadership" />
 
-<!--- Breadcrumbs --->
-<cfsavecontent variable="breadcrumbs">
-    <li><a href="/">Home</a></li>
-    <li><a href="/about/">About Us</a></li>
-    <li class="active">Leadership</li>
-</cfsavecontent>
-
 <!--- Content --->
-<cf_layout pagetitle="#pagetitle#" breadcrumbs="#breadcrumbs#"> 
+<cf_layout pagetitle="#pagetitle#"> 
 
 	<cf_mainimage mobile="leadership_mobile.png" desktop="leadership_desktop.png" alt="Leadership" />
 

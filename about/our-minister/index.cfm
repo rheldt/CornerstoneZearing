@@ -8,15 +8,8 @@
 <!--- Settings --->
 <cfset pagetitle="Our Minister" />
 
-<!--- Breadcrumbs --->
-<cfsavecontent variable="breadcrumbs">
-    <li><a href="/">Home</a></li>
-    <li><a href="/about/">About Us</a></li>
-    <li class="active">Our Minister</li>
-</cfsavecontent>
-
 <!--- Content --->
-<cf_layout pagetitle="#pagetitle#" breadcrumbs="#breadcrumbs#"> 
+<cf_layout pagetitle="#pagetitle#"> 
 
 	<cf_mainimage mobile="minister_mobile.png" desktop="minister_desktop.png" alt="Our Minister, Chuck Ryan" />
 

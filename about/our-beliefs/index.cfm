@@ -8,15 +8,8 @@
 <!--- Settings --->
 <cfset pagetitle="Our Beliefs" />
 
-<!--- Breadcrumbs --->
-<cfsavecontent variable="breadcrumbs">
-    <li><a href="/">Home</a></li>
-    <li><a href="/about/">About Us</a></li>
-    <li class="active">Our Beliefs</li>
-</cfsavecontent>
-
 <!--- Content --->
-<cf_layout pagetitle="#pagetitle#" breadcrumbs="#breadcrumbs#"> 
+<cf_layout pagetitle="#pagetitle#"> 
 
 	<cf_mainimage mobile="beliefs_mobile.png" desktop="beliefs_desktop.png" alt="Our Beliefs" />
 

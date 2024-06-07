@@ -8,16 +8,8 @@
 <!--- Settings --->
 <cfset pagetitle="Baptism" />
 
-<!--- Breadcrumbs --->
-<cfsavecontent variable="breadcrumbs">
-    <li><a href="/">Home</a></li>
-    <li><a href="/about/">About Us</a></li>
-    <li><a href="/about/our-beliefs/">Our Beliefs</a></li>
-    <li class="active">Baptism</li>
-</cfsavecontent>
-
 <!--- Content --->
-<cf_layout pagetitle="#pagetitle#" breadcrumbs="#breadcrumbs#"> 
+<cf_layout pagetitle="#pagetitle#"> 
 
 	<p class="lead">
 		We recognize the highly-significant place that baptism holds in the life of the Christian.

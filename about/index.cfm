@@ -8,14 +8,8 @@
 <!--- Settings --->
 <cfset pagetitle="About Us" />
 
-<!--- Breadcrumbs --->
-<cfsavecontent variable="breadcrumbs">
-    <li><a href="/">Home</a></li>
-    <li class="active" aria-current="page">About Us</li>
-</cfsavecontent>
-
 <!--- Content --->
-<cf_layout pagetitle="#pagetitle#" breadcrumbs="#breadcrumbs#"> 
+<cf_layout pagetitle="#pagetitle#"> 
 
 	<cf_mainimage mobile="building_mobile.png" desktop="building_desktop.png" alt="Cornerstone's Church Building" />
 	
