@@ -1,6 +1,6 @@
 component {
     this.name = "CornerstoneZearing";
     this.appBasePath = getDirectoryFromPath(getCurrentTemplatePath());
-    this.customtagpaths = [this.appBasePath & "_tags"];
-    this.mappings["/com"] = this.appBasePath & "com";
+    this.componentPaths = [this.appBasePath & "_com"];
+    this.customTagPaths = [this.appBasePath & "_tags"];
 }
