@@ -26,7 +26,8 @@
                     <ul class="top-navigation hidden-sm hidden-xs">
                         <li><i class="fa-regular fa-clock"></i> Sunday School  9:00 am</li>
                         <li><i class="fa-regular fa-clock"></i> Worship 10:00 am</li>
-                        <li><a href="/new/" class="new">I'm New</a></li>
+                        <!--- TODO2024 <li class="new"><a href="/prayer/">Need Prayer</a></li> --->
+                        <li class="new"><a href="/new/">I'm New</a></li>
                     </ul>
                     <a href="#" class="d-none d-sm-block d-md-none menu-toggle"><i class="fas fa-bars"></i></a> 
                 </div>

@@ -39,9 +39,9 @@
 		<cf_person name="Funeral Ministry" title="Sandy Perisho" position="Leader" photo="/images/person.png" email="info@cornerstonezearing.org" />
 	</cf_people>
 
-	<cf_people>
+	<!---<cf_people>
 		<cf_person name="Production Ministry" title="$Name" position="Leader" photo="/images/person.png" email="info@cornerstonezearing.org" />
 		<cf_person name="Technology Ministry" title="$Name" position="Leader" photo="/images/person.png" email="info@cornerstonezearing.org" />
-	</cf_people>
+	</cf_people>--->
 
 </cf_layout>

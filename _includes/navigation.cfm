@@ -3,18 +3,15 @@
         <a href="/">Home</a>
     </li>
     <li>
-        <a href="/about/">About Us</a>
+        <a href="/about/">About</a>
         <ul class="dropdown">
             <li><a href="/about/our-beliefs/">Our Beliefs</a></li>
             <li><a href="/about/our-minister/">Our Minister</a></li>
             <li><a href="/about/leadership/">Leadership</a></li>
             <li><a href="/about/ministries/">Ministries</a></li>
-            <li><a href="/about/service-times/">Service Times</a></li>
-            <li><a href="/about/where-to-find-us/">Where To Find Us</a></li>
+            <li><a href="/worship/service-times/">Service Times</a></li>
+            <li><a href="/worship/where-to-find-us/">Where To Find Us</a></li>
         </ul>
-    </li>
-    <li>
-        <a href="/worship/">Worship</a>
     </li>
     <li>
         <a href="/youth/">Youth</a>
@@ -29,9 +26,9 @@
         <a href="/adults/">Adults</a>
         <ul class="dropdown">
             <li><a href="/adults/sunday-school/">Sunday School</a></li>
+            <li><a href="/adults/men/">Men's Ministry</a></li>
+            <li><a href="/adults/women/">Women's Ministry</a></li>
             <li><a href="/adults/small-groups/">Small Groups</a></li>
-            <li><a href="/adults/mens-group/">Men's Group</a></li>
-            <li><a href="/adults/womens-group/">Women's Group</a></li>
         </ul>
     </li>
     <li>
@@ -46,7 +43,7 @@
     <li>
         <a href="/contact/">Contact Us</a>
     </li>
-    <!---<li>
+    <!--- TODO2024 <li>
         <a href="https://live.cornerstonezearing.org/">Livestream</a>
     </li>--->
 </ul>

@@ -9,30 +9,25 @@
 <cfset pagetitle="I'm New" />
 <cfset nextSunday = ServiceHelper::getNextSunday() />
 
-<!--- Content --->
+<!--- Layout --->
 <cf_layout pagetitle="#pagetitle#">
-
-	<cf_mainimage mobile="welcome_mobile.png" desktop="welcome_desktop.png" alt="Welcome" />
-
 	<div class="row">
-		<div class="col-lg-8">
+		<!--- Main Content --->
+		<div class="col-lg-8 col-md-8 col-sm-12">
 			<h2>&#128075; Hey There!</h1>
-		
 			<p>
 				We know you could be here for any number of reasons. Maybe you're someone looking for a
 				church family, maybe you're a new believer, maybe you don't know and are seeking guidance,
 				or maybe you heard something about us and wanted to check out this whole "church in a
 				cornfield" for yourself. 
 			</p>
-
 			<p>
-				We're made up of people just like you! We don't claim to be perfect, but we're all trying to
-				live like God wants us too. We're also some of the friendliest people you'll ever meet. We promise
-				to welcome you with open arms. So, whatever reason you're here, we're glad you stopped by!
+				Cornerstone is made up of people just like you! We don't claim to be perfect, but we are
+				trying to live like God wants us to, as a community. So, whatever reason you're here, 
+				welcome, and we hope you'll join us this Sunday!
 			</p>
 
 			<h2>Frequently Asked Questions</h2>
-
 			<cf_accordion id="faq">
 				<cf_accordionitem name="Does Cornerstone have a statement of faith?" id="beliefs" parentid="faq" expanded="false">
 					<p>
@@ -65,11 +60,13 @@
 						Yes. Each Sunday, we take part in communion, as we believe the New Testament church practiced it.
 						We do it in remembrance and celebration of Jesus' death, burial, and resurrection.
 					</p>
+					<a href="/about/communion/" class="btn btn-primary">Learn More About Communion</a>
 				</cf_accordionitem>
 				<cf_accordionitem name="Is Cornerstone guest-friendly?" id="guest" parentid="faq" expanded="false">
 					<p>
-						Yes. Everything we do is done to make you and your family feel welcome and comfortable. However,
-						we do not change the Gospel message ...  TODO2024, only the way it's presented.
+						Absolutely! Everything we do is done to make you and your family feel welcome and comfortable.
+						However, we don't change the message, only the way it's presented. Cornerstone will always 
+						have relevant teaching directly from the Bible.
 					</p>
 				</cf_accordionitem>
 				<cf_accordionitem name="How does someone become a member?" id="membership" parentid="faq" expanded="false">
@@ -78,44 +75,49 @@
 						joining Cornerstone as a member, you are invited to attend Cornerstone 101, which is held 
 						on a periodic basis.
 					</p>
+					<a href="/about/membership/" class="btn btn-primary">Learn More About Membership</a>
 				</cf_accordionitem>
 				<cf_accordionitem name="I have more questions, who do I ask?" id="questions" parentid="faq" expanded="false">
 					<p>
-						TODO2024
+						You can contact Chuck Ryan, Senior Minister, at 
+						<a href='mailto&#58;%63huck&#64;c%6&#70;rne%7&#50;&#115;t&#111;n%&#54;5zearin%67&#46;o&#114;g'>chuck&#64;co&#114;ner&#115;&#116;o&#110;e&#122;e&#97;&#114;&#105;ng&#46;o&#114;g</a>
+						or by phone at 641-487-7855. You can also use the contact form below to send him a message.
 					</p>
 					<a href="/contact/" class="btn btn-primary">Contact Us</a>
 				</cf_accordionitem>
 			</cf_accordion>
 		</div>
-		<div class="col-lg-4 sidebar">
-			<div class="widget featured_event_widget"> 
-			<!---<div class="sidebar-widget-title">
-			<h3>Featured Event</h3>
-			</div>--->
-			<img src="/images/joinus.png" class="img-fluid" alt="Join Us!" style="border-top-left-radius: 4px; border-top-right-radius: 4px;" />
-			<div class="featured-event-container pb-4">
-				<!---<label class="label label-danger">Upcoming</label>--->
+
+		<!--- Sidebar Content --->
+		<div class="col-lg-4 col-md-4 col-sm-12">
+			<cf_sidebar src="joinus.png" alt="Join Us">
 				<div class="featured-event-time" style="position: absolute;">
-				<span class="date"><cfoutput>#day(nextSunday)#</cfoutput></span>
-				<span class="month"><cfoutput>#monthAsString(month(nextSunday))#</cfoutput></span>
+					<span class="date"><cfoutput>#day(nextSunday)#</cfoutput></span>
+					<span class="month"><cfoutput>#monthAsString(month(nextSunday))#</cfoutput></span>
 				</div>
-				<h4 class="featured-event-title">Join us this weekend</h4>
-				<p>						Cornerstone Church of Christ<br />
-				14777 US Hwy 65<br />
-				Zearing, Iowa 50278</p>
+				<h4>Join us this weekend</h4>
 				<p>
-				Sunday Services: 10:00 am<br />
-				Sunday School: 9:00 am
+					Cornerstone Church of Christ<br />
+					14777 US Hwy 65<br />
+					Zearing, Iowa 50278
 				</p>
 				<p>
-				<a href="https://www.google.com/maps/dir//Cornerstone+Church+of+Christ,+14777+US-65,+Zearing,+IA+50278/@42.140228,-93.3125687,17z/data=!4m15!1m6!3m5!1s0x87ee46e54797a7db:0x4275f299cfae967c!2sCornerstone+Church+of+Christ!8m2!3d42.140224!4d-93.31038!4m7!1m0!1m5!1m1!1s0x87ee46e54797a7db:0x4275f299cfae967c!2m2!1d-93.31038!2d42.140224" class="btn btn-secondary" target="_blank">Get Directions</a>
+					Sunday Services: 10:00 am<br />
+					Sunday School: 9:00 am
 				</p>
-				</div>
-				<!---<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2958.474040763729!2d-93.31295562438218!3d42.14014174896776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87ee46e54797a7db%3A0x4275f299cfae967c!2sCornerstone%20Church%20of%20Christ!5e0!3m2!1sen!2sus!4v1717638482629!5m2!1sen!2sus" 
-				style="aspect-ratio: 4/3; border: none; width: 100%; border-bottom: 1px solid #dfdfdf;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-				</iframe>--->
-			</div>
+				<p>
+					<a href="https://www.google.com/maps/dir//Cornerstone+Church+of+Christ,+14777+US-65,+Zearing,+IA+50278/@42.140228,-93.3125687,17z/data=!4m15!1m6!3m5!1s0x87ee46e54797a7db:0x4275f299cfae967c!2sCornerstone+Church+of+Christ!8m2!3d42.140224!4d-93.31038!4m7!1m0!1m5!1m1!1s0x87ee46e54797a7db:0x4275f299cfae967c!2m2!1d-93.31038!2d42.140224" class="btn btn-secondary" target="_blank">Get Directions</a>
+				</p>
+				<hr />
+				<h4>Connect with Cornerstone</h4>
+				<p>
+					<a href="" class="btn btn-secondary" target="_blank">Youth Programs</a>
+				</p>
+				<p>
+					<a href="" class="btn btn-secondary" target="_blank">Adult Programs</a>
+				</p>
+
+			</cf_sidebar>
 		</div>
 	</div>
-
 </cf_layout>

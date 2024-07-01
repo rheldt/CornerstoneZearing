@@ -18,8 +18,7 @@
 					</g>
 				</svg>
 				<p class="mt-3">
-					Everyone is welcome at Cornerstone! Dress is casual, the music is
-					contemporary, our message is from scripture, and we'll even provide childcare.
+					TODO2024
 				</p>
 			</div>
 			<div class="col-lg-4 col-md-34 col-sm-12 widget footer-widget">

@@ -12585,34 +12585,36 @@ body.boxed .body {
     line-height: 24px;
 }
 
-/*.top-navigation li span {
-            display: inline-block;
-            margin: 0 10px;
-            text-decoration: none;
-        }
-
-        .top-navigation li:after {
-            content: "•";
-        }
-
-        .top-navigation li:last-child:after {
-            content: "";
-        }*/
-
-.top-navigation li a.new,
-.top-navigation li a.new:visited {
+.top-navigation li.new a,
+.top-navigation li.new a:visited {
     display: block;
     color: #ffffff;
-    background: rgba(0, 115, 170, 1);
+    background: #0073AA;
     padding: 2px 5px;
     text-decoration: none;
     border-radius: 4px;
     line-height: 18px;
 }
 
-.top-navigation li a.new:hover,
-.top-navigation li a.new:active {
-    background: rgba(0, 169, 102, 1);
+.top-navigation li.new a:hover,
+.top-navigation li.new a:active {
+    opacity: 0.9;
+}
+
+.top-navigation li.prayer a,
+.top-navigation li.prayer a:visited {
+    display: block;
+    color: #ffffff;
+    background: #6c757d;
+    padding: 2px 5px;
+    text-decoration: none;
+    border-radius: 4px;
+    line-height: 18px;
+}
+
+.top-navigation li.prayer a:hover,
+.top-navigation li.prayer a:active {
+    background: #5c636a;
 }
 
 .main-menu-wrapper {
@@ -14403,6 +14405,13 @@ h1.page-title {
 .widget.sermons-listing .sermon-title.h2 {
     font-size: 14px;
     margin-bottom: 0;
+}
+
+.widget img.img-widget {
+    display: block;
+    border-top-left-radius: 4px; 
+    border-top-right-radius: 4px;
+    width: 100%;
 }
 
 .tag-cloud a {
