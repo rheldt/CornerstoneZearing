@@ -1,0 +1,30 @@
+# ------------------------
+# .gitignore for WordPress
+# ------------------------
+
+# Ignore everything in the root directory
+/*
+
+# Ignore dotfiles and directories
+.*
+
+# Track this file .gitignore
+!.gitignore
+
+# Track .editorconfig file
+!.editorconfig
+
+# Track readme.md in the root 
+!readme.md
+
+# Track wp-content directory
+!wp-content/
+
+# Ignore uploads
+wp-content/uploads/*
+
+# Ignore plugins
+wp-content/plugins/*
+
+# Ignore licensed content
+wp-content/themes/NativeChurch/*

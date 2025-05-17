@@ -1,0 +1,87 @@
+/*
+ Theme Name:    Cornerstone Zearing
+ Theme URI:     https://cornerstonezearing.org
+ Description:   Everyone is welcome at Cornerstone! Casual dress, contemporary music, childcare provided. 14777 US Hwy 65, Zearing, IA. Sunday School 9:00 am, Worship 10:00 am. 
+ Author:        Ryan Heldt
+ Author URI:    https://cornerstonezearing.org
+ Template:      NativeChurch
+ Version:       2025.05
+*/
+
+body{
+	color:#555555;
+}
+
+.btn.btn-inline {
+    display: inline;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;;
+}
+
+.content {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.featured-block {
+    margin-top: 10px;
+}
+
+.featured-block strong {
+    background-image: none!important;
+}
+
+.img-thumbnail {
+    background: #f5f5f5!important;
+    border: 1px solid #cccccc!important;
+}
+
+.page-header {
+    background: #f5f5f5!important;
+}
+
+ .page-header h1 {
+    margin-top: 0;
+ }
+
+ .page-content p.lead {
+    color: #999999;
+    font-size: 24px;
+    font-weight: 300px;
+}
+
+.page-content > ul, .post-comment-block ul {
+    list-style: outside none disc!important;
+    margin-left: 40px;
+}
+
+.panel-body .btn { 
+    font-family: Roboto, sans-serif;
+    margin-top: 10px;
+} 
+
+.panel-heading a {
+    display: block;
+    position: relative;
+    text-decoration: none;
+}
+
+.panel-group {
+    margin-top: 20px;
+}
+
+.navigation {
+    background: rbga(255,255,255,0.9)!important;
+}
+
+.site-footer {
+    background-color: #f3f3f3!important;
+}
+
+.site-footer-bottom {
+    background-color: #e4e4e4!important;
+}
+
+.site-header h1.logo .default-logo img {
+    max-height: 48px;
+}
